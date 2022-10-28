@@ -1,0 +1,9 @@
+[package]
+name = "lib2"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+
+lib1 = { path = "../lib1" }
+lib3_dylib = { path = "../lib3_dylib" }

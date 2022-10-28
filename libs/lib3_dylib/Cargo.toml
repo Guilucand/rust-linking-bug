@@ -1,0 +1,8 @@
+[package]
+name = "lib3_dylib"
+version = "0.1.0"
+
+[lib]
+name = "lib3_dylib"
+crate-type = ["dylib"]
+path = "src/lib.rs"

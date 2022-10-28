@@ -1,0 +1,9 @@
+[package]
+edition = "2021"
+name = "bin1"
+version = "0.1.0"
+
+[dependencies]
+lib1 = { path = "../libs/lib1" }
+lib2 = { path = "../libs/lib2" }
+

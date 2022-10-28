@@ -1,0 +1,14 @@
+
+[workspace]
+
+members = [
+    "bin1",
+    "libs/lib1",
+    "libs/lib2",
+]
+
+default-members = ["bin1"]
+
+
+[profile.release]
+lto = "fat"
